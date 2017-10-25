@@ -1,0 +1,29 @@
+\documentclass[12pt,a4paper,oneside]{article}
+
+\author{
+    Gabriel Rovina\\
+}
+\title{Project name\\{\large Extra project info}}
+\date{\large{January 2018}}
+
+\input{setup}
+
+\begin{document}
+
+\input{parts/cover}
+
+\setcounter{tocdepth}{2}
+\tableofcontents
+\newpage
+\listoffigures
+\newpage
+\listoftables
+\newpage
+
+\include{parts/conclusion}
+
+\clearpage
+\bibliographystyle{apalike}
+\bibliography{bibliography}
+
+\end{document}
